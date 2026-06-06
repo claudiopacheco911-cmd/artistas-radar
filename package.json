@@ -1,0 +1,13 @@
+{
+  "name": "artistas-radar",
+  "version": "1.0.0",
+  "description": "Agente diario que descubre artistas vivos contemporáneos y envía un reporte por Telegram. Motor: Google Gemini (capa gratis). Desplegable en Vercel con cron L-V.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test:local": "node scripts/run-local.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
